@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #14213d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #14213d;
+}
+
+.container {
+  /* From https://css.glass */
+  background: #e5e5e598;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.searchbar {
+  margin-top: 20px;
+}
+
+.searchbar-input {
+  background: none;
+  border: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #14213d;
+  margin-right: 5px;
+  color: #14213d;
+  font-weight: bold;
+}
+
+.searchbar-input:focus {
+  outline: none;
+}
+
+.searchbar-input::placeholder {
+  color: #14213d98;
+}
+
+.searchbar-btn {
+  color: #fff;
+  border: none;
+  background-color: #14213d;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchbar-btn:hover {
+  background-color: #14213dd0;
+}
+
+.unit-container {
+  margin-top: 10px;
+}
+
+.unit-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.unit-selector {
+  width: 100%;
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #14213d;
+  cursor: pointer;
+}
+
+.unit-selector:focus {
+  outline: none;
+}
+
+.weather-info {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.city-name {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.weather-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.weather-desc {
+  font-size: 20px;
+  font-weight: bold;
+}
